@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+    <link rel="stylesheet" href="assets/css/style2.css">
+    <script src="assets/js/index.js "></script>
+</head>
+<body>
+
+    <nav>
+
+        <div class="left-side">
+            <img src="assets/image/logo.png" alt="">
+
+            <ul>
+                <li><a href="index.html" style="font-weight: 700;">Home</a></li>
+                <li><a href="project.html">My Project</a></li>
+            </ul>
+        </div>
+
+        <div class="right-side">
+            <a href="contact.html">Contact Me</a>
+        </div>
+    </nav>
+
+    <div class="main-container">
+        <div class="form-container">
+            <h1>GET IN TOUCH</h1>
+
+            <form action="">
+                <div>
+                    <label for="nama">Name</label>
+                    <input type="text" name="nama" id="name">
+                </div>
+
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </div>   
+                
+                <div>
+                    <label for="nohp">Phone Number</label>
+                    <input type="text" name="nohp" id="nohp">
+                </div>   
+
+                <div>
+                    <label for="subject">Subject</label>
+                    <select name="subject" id="subject">
+                        <option hidden></option>
+                        <option value="I`m Hiring">I`m Hiring</option>
+                        <option value="Let`s Collaboration">Let`s Collaboration</option>
+                        <option value="Let`s Talk">Let`s Talk</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="message">Your Message</label>
+                    <textarea name="message" id="message" cols="42" rows="10"></textarea>
+                </div>
+
+                <button type="button" class="btn" onclick="submitForm()">submit</button>
+
+            </form>
+
+        </div>
+    </div>
+</body>
+</html>
